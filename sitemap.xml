@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://himanshugaurav.com/</loc></url><url><loc>https://himanshugaurav.com/articles/</loc></url><url><loc>https://himanshugaurav.com/publications/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://himanshugaurav.com/</loc></url>
+  <url><loc>https://himanshugaurav.com/articles/</loc></url>
+  <url><loc>https://himanshugaurav.com/publications/</loc></url>
+  <url><loc>https://himanshugaurav.com/topics/enterprise-ai/</loc></url>
+  <url><loc>https://himanshugaurav.com/topics/semantic-intelligence/</loc></url>
+  <url><loc>https://himanshugaurav.com/topics/modern-data-architecture/</loc></url>
+</urlset>
