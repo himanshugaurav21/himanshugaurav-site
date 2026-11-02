@@ -20,3 +20,9 @@
 .dark{color-scheme:dark;--bg:#111820;--sidebar:#141d25;--surface:#1b2530;--ink:#eff3f8;--muted:#a6b4c3;--line:#344351;--code:#16202b;--shadow:none;--accentbg:#38251f;color:var(--ink)}.dark .rail{background:var(--sidebar)}.dark .rail .active,.dark .rail a:hover,.dark .rail button:hover{background:#2c3847}.dark .filter.active,.dark .switch button.active{background:var(--accent);color:#fff}.dark .switch{background:#293949}.dark .cta.filled{background:var(--accent);color:#fff}.dark .toolbar-note .dot{background:#5da480}
 @media(max-width:900px){.hero-grid,.model-grid{grid-template-columns:1fr}.stepgrid,.topicgrid{grid-template-columns:1fr 1fr}.breadcrumb{white-space:normal}.workspace{padding:28px 22px 60px}}
 @media(max-width:640px){.app{grid-template-columns:46px minmax(0,1fr)}.rail{padding:10px 2px}.rail a,.rail button{width:38px}.topbar{padding:14px 12px}.breadcrumb{font-size:10px}.navtabs{padding:0 8px}.navtabs a{padding:14px 10px}.workspace{padding:20px 12px 46px}.workspace-meta{padding:10px 12px;gap:10px;font-size:9px}.cell{grid-template-columns:38px minmax(0,1fr)}.cellgutter{padding:14px 3px}.gutterrun{width:29px;height:29px}.cellcontent,.hero-grid .cellcontent{padding:20px 15px}.hero-image{min-height:300px}.twocol,.stepgrid,.topicgrid{grid-template-columns:1fr}.metrics{grid-template-columns:1fr}.file-heading h1{font-size:32px}.hero-title{font-size:40px!important}.hide-mobile{display:none!important}}
+
+/* Branded professional identity links: visible, accessible, responsive. */
+.profile-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:24px;padding-top:19px;border-top:1px solid var(--line)}
+.profile-links-label{font:10px var(--mono);letter-spacing:.07em;color:var(--muted);width:100%}
+.profile-links a{font:600 12px var(--sans);color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.profile-links a:hover{color:var(--accent);text-decoration-color:var(--accent)}
